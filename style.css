@@ -1,50 +1,128 @@
+/* style.css */
+
 body {
-  font-family: Arial, sans-serif;
-  background-color: #ffffff;
-  color: #1a1a1a;
   margin: 0;
-  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #fefefe, #b7bfca);
+  color: #1b2735;
 }
 
-.container {
-  max-width: 900px;
-  margin: auto;
+.landing {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 20px;
-  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
 }
 
 .logo {
-  max-width: 120px;
-  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #1b2735;
 }
 
-h1 {
-  color: #002b5b;
-  font-size: 2em;
-}
-
-p {
-  font-size: 1.1em;
-  margin: 15px 0;
-}
-
-.btn {
-  background-color: #002b5b;
-  color: white;
-  padding: 10px 20px;
+nav a {
+  margin: 0 15px;
   text-decoration: none;
-  border-radius: 5px;
-  display: inline-block;
-  margin-top: 20px;
-  transition: background 0.3s ease;
+  font-weight: 600;
+  color: #1b2735;
 }
 
-.btn:hover {
-  background-color: #004488;
+.search-login {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+input[type="text"] {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.login-btn {
+  padding: 8px 16px;
+  background: linear-gradient(to right, #1b2735, #131924);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.hero-text h4 {
+  font-weight: 400;
+  color: #131924;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+  color: #1b2735;
+}
+
+.hero-text span {
+  color: #131924;
+}
+
+.hero-text p {
+  max-width: 400px;
+  color: #333;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 0;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  flex: 1;
+  min-width: 250px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #1b2735;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #333;
+  line-height: 1.5;
 }
 
 footer {
-  margin-top: 40px;
-  font-size: 0.9em;
-  color: #666;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #1b2735;
 }
