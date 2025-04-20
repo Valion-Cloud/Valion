@@ -2,22 +2,89 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Valion - Casa de Empeño</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Valion | Tu aliado financiero</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #1a1a1a;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #444;
+      margin-top: 0.5rem;
+    }
+
+    .btn-whatsapp {
+      margin: 2rem 0;
+      padding: 0.8rem 1.5rem;
+      background-color: #25d366;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .btn-whatsapp:hover {
+      background-color: #1ebe5d;
+    }
+
+    footer {
+      font-size: 0.9rem;
+      color: #888;
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    img.logo {
+      width: 120px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <img src="logo.png" alt="Logo de Valion" class="logo">
-      <h1>Valion, tu aliado financiero de confianza</h1>
-      <p>Ofrecemos préstamos seguros, rápidos y transparentes, valorando tus bienes como se merecen.</p>
-      <a href="https://wa.me/591XXXXXXXX" class="btn" target="_blank">Contáctanos por WhatsApp</a>
-    </header>
 
-    <footer>
-      <p>© 2025 Valion. Todos los derechos reservados.</p>
-    </footer>
-  </div>
+  <header>
+    <img src="TU_URL_DE_LOGO_AQUI" alt="Logo de Valion" class="logo" />
+    <h1>Valion, tu aliado financiero de confianza</h1>
+    <p>Ofrecemos préstamos seguros, rápidos y transparentes,<br> valorando tus bienes como se merecen.</p>
+  </header>
+
+  <a href="https://wa.me/TUNUMERO" class="btn-whatsapp" target="_blank">Contáctanos por WhatsApp</a>
+
+  <footer>
+    © 2025 Valion. Todos los derechos reservados.
+  </footer>
+
 </body>
 </html>
